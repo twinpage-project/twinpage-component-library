@@ -1,0 +1,32 @@
+{
+  "name": "@twinpage-project/twinpage-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/JaniEranne"
+  },
+  "version": "0.0.1",
+  "description": "A simple template for a custom React component library",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "Jani Eränne",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.55",
+    "react": "^18.2.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.3.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
