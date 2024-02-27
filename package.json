@@ -3,10 +3,12 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/twinpage-project"
   },
-  "version": "0.0.10",
+  "version": "0.0.13",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "author": "Jani Eränne",
   "license": "ISC",
@@ -14,10 +16,21 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/react": "^7.6.17",
+    "@storybook/react-webpack5": "^7.6.17",
+    "@storybook/test": "^7.6.17",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^4.9.5",
     "rollup-plugin-dts": "^6.1.0",
+    "storybook": "^7.6.17",
     "typescript": "^5.3.3"
   },
   "main": "dist/cjs/index.js",

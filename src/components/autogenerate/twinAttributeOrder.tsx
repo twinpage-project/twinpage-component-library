@@ -4,7 +4,7 @@
 const preferredOrder: string[] = [
   "features",
   "manufacturer",
-  "privacy",
+  "privacy", 
   "favouriteGame",
   "dt-id",
   "baseurl",
