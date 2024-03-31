@@ -3,17 +3,20 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/twinpage-project"
   },
-  "version": "0.0.13",
+  "version": "0.2.26",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "increase": "npm --no-git-tag-version version patch",
+    "build": "npm run rollup && npm run increase && npm publish"
   },
   "author": "Jani Eränne",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
     "@storybook/addon-essentials": "^7.6.17",
@@ -24,14 +27,36 @@
     "@storybook/react": "^7.6.17",
     "@storybook/react-webpack5": "^7.6.17",
     "@storybook/test": "^7.6.17",
+    "@types/leaflet": "^1.9.8",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@types/react-leaflet": "^3.0.0",
     "rollup": "^4.9.5",
     "rollup-plugin-dts": "^6.1.0",
-    "storybook": "^7.6.17",
-    "typescript": "^5.3.3"
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^7.6.17"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.0.1",
+    "cryptr": "^6.3.0",
+    "js-yaml": "^4.1.0",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5",
+    "next-themes": "^0.2.1",
+    "postcss": "^8",
+    "postcss-nesting": "^12.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-leaflet": "^4.2.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.3.2",
+    "react-loader-spinner": "^6.1.6",
+    "hamburger-react": "^2.5.0",
+    "cross-env": "^7.0.3",
+    "react-use": "^17.5.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

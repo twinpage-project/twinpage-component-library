@@ -1,2 +1,2 @@
-export { default } from "./YamlRepresentation";
+export { default } from "./YamlRepr";
 export { rdfYamlRepresentation } from "./rdfType";
