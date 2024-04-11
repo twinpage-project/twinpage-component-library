@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/twinpage-project"
   },
-  "version": "0.2.27",
+  "version": "0.2.26",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
@@ -13,7 +13,7 @@
     "build": "npm run rollup && npm run increase && npm publish"
   },
   "author": "Jani Eränne",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.1",
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -24,7 +24,6 @@
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
     "@storybook/addon-onboarding": "^1.0.11",
-    "@storybook/addon-webpack5-compiler-babel": "^3.0.3",
     "@storybook/addon-webpack5-compiler-swc": "^1.0.2",
     "@storybook/blocks": "^7.6.17",
     "@storybook/react": "^7.6.17",
@@ -68,7 +67,6 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "node-polyfill-webpack-plugin": "^3.0.0",
     "stream-http": "^3.2.0",
     "tslib": "^2.6.2"
   }
