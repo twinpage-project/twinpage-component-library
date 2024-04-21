@@ -38,7 +38,6 @@ This is a React component library for displaying digital twin information. Libra
 - Create a new branch
 - Install packages ```npm install```
 - Add a folder in the folder "src/components". Add your component and file "index.ts" in the folder you just created. Then export your component in both of the "index.ts" files. The other one is located in "src".
-- Create pull request 
-
 - To test your component locally make a "story" under the folder "src/stories" and then run ```npm run storybook```
 - For making stories, you can follow the existing stories and look more information in https://storybook.js.org/docs/writing-stories
+ - Create pull request after making sure the code works
