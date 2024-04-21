@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/twinpage-project"
   },
-  "version": "0.2.26",
+  "version": "0.2.32",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",

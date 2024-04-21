@@ -15,5 +15,6 @@ export { default as ImageVisualization} from "./ImageVisualization"
 export { default as ImageViewer} from "./ImageViewer"
 export { default as Dashboard} from "./Dashboard"
 export { default as User } from './User'
-export { default as Toast } from './Toast'
 export { default as RedirectInput } from './RedirectInput'
+export { default as Toast } from './Toast'
+
