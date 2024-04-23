@@ -1,6 +1,6 @@
 # COMPONENT LIBRARY
--This is a React component library for displaying digital twin information. Library is based on the tutorial at https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
--The components in this library are used in the twinpage project.
+- This is a React component library for displaying digital twin information. Library is based on the tutorial at https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
+- The components in this library are used in the twinpage project.
 
 ## TWINPAGE
 ## DESCRIPTION OF TWINPAGE
